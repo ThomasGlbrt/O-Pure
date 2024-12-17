@@ -1,0 +1,2 @@
+La note de l'eau actuellement est à : 5
+La moyenne de la semaine est : 4
