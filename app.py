@@ -1,11 +1,7 @@
-import csv
-import json
-import requests
-import os
+import csv ,io, json, requests, os, pytz
 from datetime import datetime, timedelta
 from flask import Flask, request, jsonify, render_template_string, redirect, url_for
 from apscheduler.schedulers.background import BackgroundScheduler
-import pytz
 
 app = Flask(__name__)
 csv_data, last_update = [], None
